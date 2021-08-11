@@ -17,6 +17,23 @@ Input - zzzoooooo
 Output - Yes
 '''
 
+x = 0
+y = 0
+i = 0
+string = input()
+ 
+while i < len(string):
+    if string[i] == 'z':
+        x+=1
+    else:
+        y+=1
+    i += 1
+ 
+if(2 * x == y):
+    print("Yes")
+else:
+    print("No")
+
 
 
 
